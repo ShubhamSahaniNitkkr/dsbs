@@ -13,7 +13,25 @@
       ]
     },
     {
-      "source": "/(.*\\.(svg|ico|txt|xml))",
+      "source": "/:path*.svg",
+      "headers": [
+        { "key": "Cache-Control", "value": "public, max-age=86400" }
+      ]
+    },
+    {
+      "source": "/:path*.ico",
+      "headers": [
+        { "key": "Cache-Control", "value": "public, max-age=86400" }
+      ]
+    },
+    {
+      "source": "/:path*.txt",
+      "headers": [
+        { "key": "Cache-Control", "value": "public, max-age=86400" }
+      ]
+    },
+    {
+      "source": "/:path*.xml",
       "headers": [
         { "key": "Cache-Control", "value": "public, max-age=86400" }
       ]
