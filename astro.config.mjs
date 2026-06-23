@@ -6,7 +6,7 @@ import sitemap from '@astrojs/sitemap';
 
 // https://astro.build/config
 export default defineConfig({
-  site: 'https://deepshikhabeautystudio.com',
+  site: 'https://www.deepshikhabeautystudio.com',
   trailingSlash: 'never',
   vite: {
     plugins: [tailwindcss()],
@@ -31,7 +31,7 @@ export default defineConfig({
       lastmod: new Date(),
       serialize(item) {
         const url = item.url;
-        if (url === 'https://deepshikhabeautystudio.com/') {
+        if (url === 'https://www.deepshikhabeautystudio.com/') {
           item.priority = 1.0;
         } else if (url.includes('bridal-makeup') || url.includes('best-makeup-artist')) {
           item.priority = 0.9;
