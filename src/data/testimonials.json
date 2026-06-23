@@ -1,0 +1,68 @@
+[
+  {
+    "id": "rev1",
+    "type": "text",
+    "name": "Priya Sharma",
+    "rating": 5,
+    "text": "Deep Shikha ji ne meri wedding look ko perfect bana diya — sabne compliment kiya!",
+    "event": "Bridal Makeup",
+    "date": "2025-12",
+    "modelId": "model-1",
+    "image": "https://res.cloudinary.com/dvygreryl/image/upload/v1782240416/dsbs/models/model-1/photo-01.jpg"
+  },
+  {
+    "id": "rev2",
+    "type": "text",
+    "name": "Ananya Singh",
+    "rating": 5,
+    "text": "Engagement look itni sundar thi ki sab photos mein shine kar rahi thi!",
+    "event": "Engagement Makeup",
+    "date": "2025-11",
+    "modelId": "model-2",
+    "image": "https://res.cloudinary.com/dvygreryl/image/upload/v1782240441/dsbs/models/model-2/photo-01.jpg"
+  },
+  {
+    "id": "rev3",
+    "type": "text",
+    "name": "Sneha Kumari",
+    "rating": 5,
+    "text": "Professional, punctual, and incredibly talented. Best in Patna!",
+    "event": "Reception Makeup",
+    "date": "2025-10",
+    "modelId": "model-3",
+    "image": "https://res.cloudinary.com/dvygreryl/image/upload/v1782240487/dsbs/models/model-3/photo-01.jpg"
+  },
+  {
+    "id": "rev4",
+    "type": "text",
+    "name": "Kavya Reddy",
+    "rating": 5,
+    "text": "Party makeup bilkul flawless tha — poori raat glow maintain raha.",
+    "event": "Party Makeup",
+    "date": "2025-09",
+    "modelId": "model-4",
+    "image": "https://res.cloudinary.com/dvygreryl/image/upload/v1782240515/dsbs/models/model-4/photo-01.jpg"
+  },
+  {
+    "id": "rev5",
+    "type": "text",
+    "name": "Riya Patel",
+    "rating": 5,
+    "text": "Haldi look natural aur fresh thi. Bahut khush hoon result se!",
+    "event": "Haldi Makeup",
+    "date": "2025-08",
+    "modelId": "model-5",
+    "image": "https://res.cloudinary.com/dvygreryl/image/upload/v1782240531/dsbs/models/model-5/photo-01.jpg"
+  },
+  {
+    "id": "rev6",
+    "type": "text",
+    "name": "Meera Joshi",
+    "rating": 5,
+    "text": "Deep Shikha ji ka makeup long-lasting hai aur photos mein amazing dikhta hai.",
+    "event": "Bridal Makeup",
+    "date": "2025-07",
+    "modelId": "model-6",
+    "image": "https://res.cloudinary.com/dvygreryl/image/upload/v1782240537/dsbs/models/model-6/photo-01.jpg"
+  }
+]

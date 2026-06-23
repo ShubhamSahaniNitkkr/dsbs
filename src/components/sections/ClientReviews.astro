@@ -1,0 +1,18 @@
+---
+import SectionTitle from '../ui/SectionTitle.astro';
+import ReviewsMarquee from '../ui/ReviewsMarquee';
+---
+
+<section id="reviews" class="section-padding bg-surface">
+  <div class="container-salon">
+    <SectionTitle label="Reviews" title="What Brides Say" />
+
+    <!-- Google rating block — hidden per client request
+    ...
+    -->
+  </div>
+
+  <div class="mt-2">
+    <ReviewsMarquee client:load />
+  </div>
+</section>

@@ -1,0 +1,50 @@
+---
+import media from '../../data/media.json';
+
+const wip = media.workInProgress;
+---
+
+{wip?.enabled && wip.items && wip.items.length > 0 && (
+  <div class="mt-14 border-t border-champagne pt-12 sm:mt-16 sm:pt-14">
+    <div class="mb-8 text-center lg:text-left">
+      <span class="wip-badge inline-flex items-center gap-2 rounded-full border border-rose-gold/40 bg-rose-gold/10 px-4 py-1.5 text-[10px] font-semibold tracking-[0.22em] text-rose-gold-dark uppercase">
+        <span class="relative flex h-2 w-2">
+          <span class="absolute inline-flex h-full w-full animate-ping rounded-full bg-rose-gold opacity-50"></span>
+          <span class="relative inline-flex h-2 w-2 rounded-full bg-rose-gold"></span>
+        </span>
+        {wip.label}
+      </span>
+      <h3 class="font-display mt-4 text-2xl text-charcoal sm:text-3xl">{wip.title}</h3>
+      <p class="mx-auto mt-2 max-w-md text-sm text-muted lg:mx-0">{wip.subtitle}</p>
+    </div>
+
+    <div class="grid grid-cols-2 gap-3 sm:grid-cols-3 sm:gap-4">
+      {wip.items.map((item, i) => (
+        <div class="group relative aspect-[3/4] overflow-hidden bg-ivory-dark">
+          {item.type === 'video' ? (
+            <video
+              src={item.src}
+              class="h-full w-full object-cover"
+              muted
+              loop
+              playsInline
+              autoplay
+              preload="metadata"
+            />
+          ) : (
+            <img
+              src={item.src}
+              alt={`Work in progress ${i + 1}`}
+              class="h-full w-full object-cover transition duration-500 group-hover:scale-105"
+              loading="lazy"
+            />
+          )}
+          <div class="pointer-events-none absolute inset-0 bg-gradient-to-t from-black/50 via-transparent to-transparent"></div>
+          <div class="absolute top-2 right-2 rounded bg-black/50 px-2 py-0.5 text-[8px] font-semibold tracking-widest text-white/90 uppercase backdrop-blur-sm">
+            WIP
+          </div>
+        </div>
+      ))}
+    </div>
+  </div>
+)}

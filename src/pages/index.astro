@@ -1,0 +1,34 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import Hero from '../components/sections/Hero.astro';
+import Portfolio from '../components/sections/Portfolio.astro';
+import Transformations from '../components/sections/Transformations.astro';
+import ClientReviews from '../components/sections/ClientReviews.astro';
+import Packages from '../components/sections/Packages.astro';
+import Payment from '../components/sections/Payment.astro';
+import Team from '../components/sections/Team.astro';
+import FAQ from '../components/sections/FAQ.astro';
+import FinalCTA from '../components/sections/FinalCTA.astro';
+import site from '../data/site.json';
+
+const seo = site.seo || {};
+---
+
+<BaseLayout
+  title={seo.title}
+  description={seo.description}
+  keywords={seo.keywords}
+  ogImage={seo.ogImage}
+  canonical={`${site.domain}/`}
+  schemaType="home"
+>
+  <Hero />
+  <Portfolio />
+  <Transformations />
+  <Packages featuredOnly />
+  <ClientReviews />
+  <Team />
+  <Payment />
+  <FAQ />
+  <FinalCTA />
+</BaseLayout>

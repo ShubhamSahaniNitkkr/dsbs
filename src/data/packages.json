@@ -1,0 +1,88 @@
+[
+  {
+    "id": "bridal-signature",
+    "name": "Bridal Signature Package",
+    "price": 11999,
+    "includes": [
+      "HD Bridal Makeup",
+      "Hair Styling",
+      "Saree/Dupatta Setting",
+      "Lashes",
+      "Touchup Kit"
+    ],
+    "description": "Perfect bridal look for your special day."
+  },
+  {
+    "id": "royal-bride",
+    "name": "Royal Bride Package",
+    "price": 17999,
+    "includes": [
+      "HD/Airbrush Makeup",
+      "Premium Hairstyling",
+      "Lenses",
+      "Nail Setup",
+      "Touchup Kit",
+      "Premium Products"
+    ],
+    "description": "Our most loved package.",
+    "mostPopular": true
+  },
+  {
+    "id": "luxury-wedding",
+    "name": "Luxury Wedding Package",
+    "price": 24999,
+    "includes": [
+      "Everything in Royal Bride",
+      "Trial Makeup",
+      "Pre Wedding Consultation",
+      "Premium Luxury Products",
+      "Full Day Support"
+    ],
+    "description": "Complete luxury experience."
+  },
+  {
+    "id": "engagement-glow",
+    "name": "Engagement Glow Package",
+    "price": 6999,
+    "includes": [
+      "HD Makeup",
+      "Hair Styling",
+      "Lashes"
+    ],
+    "description": "Radiant engagement look."
+  },
+  {
+    "id": "haldi-radiance",
+    "name": "Haldi Radiance Package",
+    "price": 3999,
+    "includes": [
+      "Natural Glow Makeup",
+      "Light Hairstyling"
+    ],
+    "description": "Fresh haldi ceremony look.",
+    "startingFrom": true
+  },
+  {
+    "id": "reception-glam",
+    "name": "Reception Glam Package",
+    "price": 9999,
+    "includes": [
+      "HD Makeup",
+      "Glam Hairstyling",
+      "Lashes",
+      "Touchup"
+    ],
+    "description": "Bold reception glam."
+  },
+  {
+    "id": "party-makeup",
+    "name": "Party Makeup",
+    "price": 2999,
+    "includes": [
+      "Party Makeup",
+      "Basic Hair Styling"
+    ],
+    "description": "Glamorous party look.",
+    "startingFrom": true
+  }
+]

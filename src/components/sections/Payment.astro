@@ -1,0 +1,48 @@
+---
+import SectionTitle from '../ui/SectionTitle.astro';
+import payment from '../../data/payment.json';
+import PaymentForm from '../ui/PaymentForm';
+import type { PaymentConfig } from '../../types';
+
+const config = payment as PaymentConfig;
+---
+
+<section id="payment" class="section-padding bg-surface">
+  <div class="container-salon">
+    <SectionTitle
+      label={config.sectionLabel || 'Booking'}
+      title={config.sectionTitle || 'Reserve Your Wedding Date'}
+      subtitle={config.sectionSubtitle || 'Share your celebration details — we confirm on WhatsApp.'}
+    />
+
+    <div class="payment-shell grid gap-0 lg:grid-cols-[minmax(0,0.9fr)_minmax(0,1.1fr)]">
+      <aside class="payment-aside flex flex-col justify-between p-8 sm:p-10">
+        <div>
+          <p class="text-[10px] font-semibold tracking-[0.28em] text-rose-gold-light uppercase">Personal Booking</p>
+          <h3 class="font-display mt-4 text-3xl leading-snug text-ivory">Your day deserves a personal touch.</h3>
+          <p class="mt-4 text-sm leading-relaxed text-ivory/70">
+            No forms lost in inboxes — share your details and chat directly with Deep Shikha on WhatsApp.
+          </p>
+        </div>
+        <ul class="mt-10 space-y-4 text-sm text-ivory/80">
+          <li class="flex items-start gap-3">
+            <span class="mt-1 flex h-6 w-6 shrink-0 items-center justify-center border border-rose-gold/50 text-[10px] text-rose-gold-light">1</span>
+            Fill in your name, date & package
+          </li>
+          <li class="flex items-start gap-3">
+            <span class="mt-1 flex h-6 w-6 shrink-0 items-center justify-center border border-rose-gold/50 text-[10px] text-rose-gold-light">2</span>
+            Tap Continue on WhatsApp
+          </li>
+          <li class="flex items-start gap-3">
+            <span class="mt-1 flex h-6 w-6 shrink-0 items-center justify-center border border-rose-gold/50 text-[10px] text-rose-gold-light">3</span>
+            Get availability & booking confirmation
+          </li>
+        </ul>
+      </aside>
+
+      <div class="payment-form-panel salon-card p-5 sm:p-8 lg:p-10">
+        <PaymentForm client:load />
+      </div>
+    </div>
+  </div>
+</section>

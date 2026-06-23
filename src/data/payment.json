@@ -1,0 +1,27 @@
+{
+  "upiId": "deepshikha@upi",
+  "qrImage": "/images/payment-qr.svg",
+  "displayName": "Deep Shikha Beauty Studio",
+  "advanceNote": "No payment gateway — just your details and a direct WhatsApp conversation with Deep Shikha.",
+  "sectionLabel": "Booking",
+  "sectionTitle": "Reserve Your Wedding Date",
+  "sectionSubtitle": "Share your celebration details — we confirm your slot personally on WhatsApp.",
+  "defaultAdvance": 2000,
+  "packagesAdvance": {
+    "bridal-signature": 2000,
+    "royal-bride": 3000,
+    "luxury-wedding": 5000,
+    "engagement-glow": 1000,
+    "haldi-radiance": 500,
+    "reception-glam": 1500,
+    "party-makeup": 500
+  },
+  "instructions": [
+    "Fill your details",
+    "Scan QR and pay",
+    "Share screenshot on WhatsApp"
+  ],
+  "formEndpoint": "https://api.web3forms.com/submit",
+  "accessKey": "YOUR_WEB3FORMS_ACCESS_KEY",
+  "notificationEmail": "spongi1997deepshikha@gmail.com"
+}

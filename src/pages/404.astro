@@ -1,0 +1,26 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import site from '../data/site.json';
+import { getWhatsAppConsultationUrl } from '../lib/utils';
+---
+
+<BaseLayout
+  title={`Page Not Found | ${site.brand}`}
+  description="The page you are looking for does not exist. Explore bridal makeup services in Patna."
+  canonical={`${site.domain}/`}
+  noindex={true}
+>
+  <section class="section-padding bg-surface pt-28 text-center">
+    <div class="container-salon">
+      <p class="label">404</p>
+      <h1 class="font-display mt-4 text-4xl text-charcoal sm:text-5xl">Page Not Found</h1>
+      <p class="mx-auto mt-5 max-w-md text-sm text-muted">
+        This page may have moved. Head back to the homepage or book a consultation on WhatsApp.
+      </p>
+      <div class="mt-8 flex flex-col items-center gap-3 sm:flex-row sm:justify-center">
+        <a href="/" class="btn-secondary">Back to Home</a>
+        <a href={getWhatsAppConsultationUrl()} target="_blank" rel="noopener noreferrer" class="btn-whatsapp">Book on WhatsApp</a>
+      </div>
+    </div>
+  </section>
+</BaseLayout>

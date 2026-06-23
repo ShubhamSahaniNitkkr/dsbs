@@ -1,0 +1,144 @@
+{
+  "models": [
+    {
+      "id": "model-1",
+      "title": "Radha Look",
+      "category": "bridal",
+      "cover": "https://res.cloudinary.com/dvygreryl/image/upload/v1782240416/dsbs/models/model-1/photo-01.jpg",
+      "video": "https://res.cloudinary.com/dvygreryl/video/upload/v1782240439/dsbs/models/model-1/video-01.mp4",
+      "videos": [
+        "https://res.cloudinary.com/dvygreryl/video/upload/v1782240439/dsbs/models/model-1/video-01.mp4"
+      ],
+      "photos": [
+        "https://res.cloudinary.com/dvygreryl/image/upload/v1782240416/dsbs/models/model-1/photo-01.jpg",
+        "https://res.cloudinary.com/dvygreryl/image/upload/v1782240417/dsbs/models/model-1/photo-02.jpg",
+        "https://res.cloudinary.com/dvygreryl/image/upload/v1782240419/dsbs/models/model-1/photo-03.jpg",
+        "https://res.cloudinary.com/dvygreryl/image/upload/v1782240421/dsbs/models/model-1/photo-04.jpg",
+        "https://res.cloudinary.com/dvygreryl/image/upload/v1782240422/dsbs/models/model-1/photo-05.jpg"
+      ]
+    },
+    {
+      "id": "model-2",
+      "title": "Engagement Look 2",
+      "category": "engagement",
+      "cover": "https://res.cloudinary.com/dvygreryl/image/upload/v1782240441/dsbs/models/model-2/photo-01.jpg",
+      "video": "https://res.cloudinary.com/dvygreryl/video/upload/v1782240467/dsbs/models/model-2/video-01.mp4",
+      "videos": [
+        "https://res.cloudinary.com/dvygreryl/video/upload/v1782240467/dsbs/models/model-2/video-01.mp4",
+        "https://res.cloudinary.com/dvygreryl/video/upload/v1782240471/dsbs/models/model-2/video-02.mp4",
+        "https://res.cloudinary.com/dvygreryl/video/upload/v1782240477/dsbs/models/model-2/video-03.mp4",
+        "https://res.cloudinary.com/dvygreryl/video/upload/v1782240481/dsbs/models/model-2/video-04.mp4",
+        "https://res.cloudinary.com/dvygreryl/video/upload/v1782240485/dsbs/models/model-2/video-05.mp4"
+      ],
+      "photos": [
+        "https://res.cloudinary.com/dvygreryl/image/upload/v1782240441/dsbs/models/model-2/photo-01.jpg",
+        "https://res.cloudinary.com/dvygreryl/image/upload/v1782240444/dsbs/models/model-2/photo-02.jpg",
+        "https://res.cloudinary.com/dvygreryl/image/upload/v1782240447/dsbs/models/model-2/photo-03.jpg",
+        "https://res.cloudinary.com/dvygreryl/image/upload/v1782240449/dsbs/models/model-2/photo-04.jpg",
+        "https://res.cloudinary.com/dvygreryl/image/upload/v1782240454/dsbs/models/model-2/photo-05.jpg",
+        "https://res.cloudinary.com/dvygreryl/image/upload/v1782240456/dsbs/models/model-2/photo-06.jpg",
+        "https://res.cloudinary.com/dvygreryl/image/upload/v1782240458/dsbs/models/model-2/photo-07.jpg",
+        "https://res.cloudinary.com/dvygreryl/image/upload/v1782240460/dsbs/models/model-2/photo-08.jpg",
+        "https://res.cloudinary.com/dvygreryl/image/upload/v1782240463/dsbs/models/model-2/photo-09.jpg"
+      ]
+    },
+    {
+      "id": "model-3",
+      "title": "Hair Style 1",
+      "category": "reception",
+      "cover": "https://res.cloudinary.com/dvygreryl/image/upload/v1782240487/dsbs/models/model-3/photo-01.jpg",
+      "video": "https://res.cloudinary.com/dvygreryl/video/upload/v1782240503/dsbs/models/model-3/video-01.mp4",
+      "videos": [
+        "https://res.cloudinary.com/dvygreryl/video/upload/v1782240503/dsbs/models/model-3/video-01.mp4",
+        "https://res.cloudinary.com/dvygreryl/video/upload/v1782240507/dsbs/models/model-3/video-02.mp4",
+        "https://res.cloudinary.com/dvygreryl/video/upload/v1782240511/dsbs/models/model-3/video-03.mp4"
+      ],
+      "photos": [
+        "https://res.cloudinary.com/dvygreryl/image/upload/v1782240487/dsbs/models/model-3/photo-01.jpg",
+        "https://res.cloudinary.com/dvygreryl/image/upload/v1782240489/dsbs/models/model-3/photo-02.jpg",
+        "https://res.cloudinary.com/dvygreryl/image/upload/v1782240491/dsbs/models/model-3/photo-03.jpg",
+        "https://res.cloudinary.com/dvygreryl/image/upload/v1782240493/dsbs/models/model-3/photo-04.jpg",
+        "https://res.cloudinary.com/dvygreryl/image/upload/v1782240495/dsbs/models/model-3/photo-05.jpg",
+        "https://res.cloudinary.com/dvygreryl/image/upload/v1782240499/dsbs/models/model-3/photo-06.jpg"
+      ]
+    },
+    {
+      "id": "model-4",
+      "title": "Party Look 4",
+      "category": "party",
+      "cover": "https://res.cloudinary.com/dvygreryl/image/upload/v1782240515/dsbs/models/model-4/photo-01.jpg",
+      "video": "https://res.cloudinary.com/dvygreryl/video/upload/v1782240525/dsbs/models/model-4/video-01.mp4",
+      "videos": [
+        "https://res.cloudinary.com/dvygreryl/video/upload/v1782240525/dsbs/models/model-4/video-01.mp4",
+        "https://res.cloudinary.com/dvygreryl/video/upload/v1782240529/dsbs/models/model-4/video-02.mp4"
+      ],
+      "photos": [
+        "https://res.cloudinary.com/dvygreryl/image/upload/v1782240515/dsbs/models/model-4/photo-01.jpg",
+        "https://res.cloudinary.com/dvygreryl/image/upload/v1782240516/dsbs/models/model-4/photo-02.jpg",
+        "https://res.cloudinary.com/dvygreryl/image/upload/v1782240518/dsbs/models/model-4/photo-03.jpg"
+      ]
+    },
+    {
+      "id": "model-5",
+      "title": "Haldi Look 5",
+      "category": "haldi",
+      "cover": "https://res.cloudinary.com/dvygreryl/image/upload/v1782240531/dsbs/models/model-5/photo-01.jpg",
+      "video": null,
+      "videos": [],
+      "photos": [
+        "https://res.cloudinary.com/dvygreryl/image/upload/v1782240531/dsbs/models/model-5/photo-01.jpg",
+        "https://res.cloudinary.com/dvygreryl/image/upload/v1782240532/dsbs/models/model-5/photo-02.jpg",
+        "https://res.cloudinary.com/dvygreryl/image/upload/v1782240534/dsbs/models/model-5/photo-03.jpg",
+        "https://res.cloudinary.com/dvygreryl/image/upload/v1782240535/dsbs/models/model-5/photo-04.jpg"
+      ]
+    },
+    {
+      "id": "model-6",
+      "title": "Trending Hairstyle",
+      "category": "bridal",
+      "cover": "https://res.cloudinary.com/dvygreryl/image/upload/v1782240537/dsbs/models/model-6/photo-01.jpg",
+      "video": null,
+      "videos": [],
+      "photos": [
+        "https://res.cloudinary.com/dvygreryl/image/upload/v1782240537/dsbs/models/model-6/photo-01.jpg",
+        "https://res.cloudinary.com/dvygreryl/image/upload/v1782240539/dsbs/models/model-6/photo-02.jpg"
+      ]
+    },
+    {
+      "id": "model-7",
+      "title": "Barbie Hair Style",
+      "category": "engagement",
+      "cover": "https://res.cloudinary.com/dvygreryl/video/upload/v1782240542/dsbs/models/model-7/video-01.mp4",
+      "video": "https://res.cloudinary.com/dvygreryl/video/upload/v1782240542/dsbs/models/model-7/video-01.mp4",
+      "videos": [
+        "https://res.cloudinary.com/dvygreryl/video/upload/v1782240542/dsbs/models/model-7/video-01.mp4",
+        "https://res.cloudinary.com/dvygreryl/video/upload/v1782240543/dsbs/models/model-7/video-02.mp4"
+      ],
+      "photos": []
+    },
+    {
+      "id": "model-8",
+      "title": "Mehndi Look",
+      "category": "reception",
+      "cover": "https://res.cloudinary.com/dvygreryl/image/upload/v1782240545/dsbs/models/model-8/photo-01.jpg",
+      "video": null,
+      "videos": [],
+      "photos": [
+        "https://res.cloudinary.com/dvygreryl/image/upload/v1782240545/dsbs/models/model-8/photo-01.jpg",
+        "https://res.cloudinary.com/dvygreryl/image/upload/v1782240547/dsbs/models/model-8/photo-02.jpg"
+      ]
+    },
+    {
+      "id": "model-9",
+      "title": "Party Look 9",
+      "category": "party",
+      "cover": "https://res.cloudinary.com/dvygreryl/image/upload/v1782240548/dsbs/models/model-9/photo-01.jpg",
+      "video": null,
+      "videos": [],
+      "photos": [
+        "https://res.cloudinary.com/dvygreryl/image/upload/v1782240548/dsbs/models/model-9/photo-01.jpg",
+        "https://res.cloudinary.com/dvygreryl/image/upload/v1782240550/dsbs/models/model-9/photo-02.jpg"
+      ]
+    }
+  ]
+}

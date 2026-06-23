@@ -1,0 +1,31 @@
+{
+  "brand": "Deep Shikha Beauty Studio",
+  "tagline": "Lakmé Certified Bridal Makeup Artist",
+  "location": "Patna, Bihar",
+  "phone": "+91 9142760891",
+  "whatsapp": "919142760891",
+  "email": "spongi1997deepshikha@gmail.com",
+  "address": "Patna, Bihar, India",
+  "domain": "https://deepshikhabeautystudio.com",
+  "seo": {
+    "title": "Deep Shikha Beauty Studio | Bridal Makeup Artist Patna",
+    "description": "Lakmé certified bridal makeup artist in Patna. 34+ happy brides. HD & airbrush makeup. Book on WhatsApp +91 9142760891.",
+    "keywords": "bridal makeup patna, makeup artist patna, deep shikha beauty studio, wedding makeup patna, best makeup artist patna",
+    "ogImage": "https://res.cloudinary.com/dvygreryl/image/upload/v1782240407/dsbs/logo.jpg"
+  },
+  "stats": {
+    "happyBrides": 34,
+    "yearsExperience": 6,
+    "googleRating": 4.9
+  },
+  "certifications": [
+    "Lakmé Certified",
+    "Professional Hair Styling"
+  ],
+  "whatsappMessages": {
+    "consultation": "Hi Deep Shikha ji, I want to book a bridal makeup consultation for my wedding. Please share your availability.",
+    "package": "Hi Deep Shikha ji, I'm interested in the {packageName} package (₹{price}). Please share availability.",
+    "general": "Hi Deep Shikha ji, I visited your website and would like to know more about your bridal makeup services.",
+    "payment": "Hi Deep Shikha ji, I have completed the advance payment. Name: {name}, Package: {package}, Amount: ₹{amount}."
+  }
+}

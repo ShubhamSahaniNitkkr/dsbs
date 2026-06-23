@@ -1,0 +1,65 @@
+[
+  {
+    "id": "bridal",
+    "name": "Bridal Makeup",
+    "description": "Complete bridal transformation with HD makeup, hairstyling, and draping for your wedding day.",
+    "icon": "bridal",
+    "slug": "bridal-makeup-patna"
+  },
+  {
+    "id": "engagement",
+    "name": "Engagement Makeup",
+    "description": "Radiant engagement looks that photograph beautifully and last all evening.",
+    "icon": "engagement",
+    "slug": "engagement-makeup-patna"
+  },
+  {
+    "id": "reception",
+    "name": "Reception Makeup",
+    "description": "Glamorous reception makeup with bold eyes and statement lips for your grand entrance.",
+    "icon": "reception",
+    "slug": "reception-makeup-patna"
+  },
+  {
+    "id": "haldi",
+    "name": "Haldi Makeup",
+    "description": "Fresh, natural glow makeup perfect for your vibrant haldi ceremony.",
+    "icon": "haldi",
+    "slug": "haldi-makeup-patna"
+  },
+  {
+    "id": "party",
+    "name": "Party Makeup",
+    "description": "Stunning party and sangeet looks for every celebration.",
+    "icon": "party",
+    "slug": "party-makeup-patna"
+  },
+  {
+    "id": "anniversary",
+    "name": "Anniversary Makeup",
+    "description": "Elegant, sophisticated looks for your special anniversary celebration.",
+    "icon": "anniversary",
+    "slug": ""
+  },
+  {
+    "id": "hair",
+    "name": "Hair Styling",
+    "description": "Expert bridal buns, braids, open hair, and accessory styling.",
+    "icon": "hair",
+    "slug": ""
+  },
+  {
+    "id": "draping",
+    "name": "Saree Draping",
+    "description": "Perfect saree and dupatta draping for all types of outfits.",
+    "icon": "draping",
+    "slug": ""
+  },
+  {
+    "id": "nails",
+    "name": "Nail Services",
+    "description": "Bridal nail art and setup to complete your look.",
+    "icon": "nails",
+    "slug": ""
+  }
+]

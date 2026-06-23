@@ -1,0 +1,24 @@
+---
+import { getWhatsAppConsultationUrl, getPhoneUrl } from '../../lib/utils';
+import media from '../../data/media.json';
+---
+
+<section id="contact" class="section-padding bg-dark text-center">
+  <div class="container-salon">
+    <img src={media.logo} alt="" class="mx-auto h-16 w-auto opacity-90" loading="lazy" />
+    <h2 class="font-display mt-6 text-3xl font-semibold text-ivory sm:text-4xl">
+      Book Your Bridal Look
+    </h2>
+    <p class="mx-auto mt-3 max-w-sm text-sm text-ivory/60">
+      Free consultation on WhatsApp. Limited wedding dates.
+    </p>
+    <div class="mt-8 flex flex-col gap-3 sm:flex-row sm:justify-center">
+      <a href={getWhatsAppConsultationUrl()} target="_blank" rel="noopener noreferrer" class="btn-whatsapp">
+        WhatsApp Now
+      </a>
+      <a href={getPhoneUrl()} class="btn-secondary !border-ivory/25 !text-ivory hover:!border-rose-gold-light">
+        Call Direct
+      </a>
+    </div>
+  </div>
+</section>

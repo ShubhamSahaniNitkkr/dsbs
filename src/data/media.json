@@ -1,0 +1,116 @@
+{
+  "settings": {
+    "rotationIntervalMs": 3000,
+    "cacheVersion": "1.6.1"
+  },
+  "logo": "https://res.cloudinary.com/dvygreryl/image/upload/v1782240407/dsbs/logo.jpg",
+  "logoAlt": "Deep Shikha Beauty Studio",
+  "hero": {
+    "overline": "Lakmé Certified Artist",
+    "title": "Beauty Studio",
+    "subtitle": "by Deep Shikha",
+    "badge": "34+ Happy Brides",
+    "location": "Patna, Bihar",
+    "description": "Premium bridal makeup artistry for your wedding day. HD & airbrush makeup, professional hairstyling, and complete bridal transformation.",
+    "services": "Bridal | Engagement | Haldi | Reception | Party Makeup",
+    "titleLine1": "Patna's Trusted",
+    "titleLine2": "Bridal Makeup Artist",
+    "philosophy": "Har chehra mere liye bahut important hai. Bhagwan ne hum sabko pehle se itna sundar banaya hai — main bas apni chhoti si expertise se us natural beauty ko enhance karti hoon, taaki aap apne special din bilkul khush aur confident mehsoos karein.",
+    "rotation": [
+      {
+        "type": "image",
+        "src": "https://res.cloudinary.com/dvygreryl/image/upload/v1782240416/dsbs/models/model-1/photo-01.jpg",
+        "alt": "Bridal makeup look"
+      },
+      {
+        "type": "image",
+        "src": "https://res.cloudinary.com/dvygreryl/image/upload/v1782240441/dsbs/models/model-2/photo-01.jpg",
+        "alt": "Engagement makeup look"
+      },
+      {
+        "type": "image",
+        "src": "https://res.cloudinary.com/dvygreryl/image/upload/v1782240487/dsbs/models/model-3/photo-01.jpg",
+        "alt": "Reception makeup look"
+      },
+      {
+        "type": "image",
+        "src": "https://res.cloudinary.com/dvygreryl/image/upload/v1782240515/dsbs/models/model-4/photo-01.jpg",
+        "alt": "Party makeup look"
+      },
+      {
+        "type": "image",
+        "src": "https://res.cloudinary.com/dvygreryl/image/upload/v1782240531/dsbs/models/model-5/photo-01.jpg",
+        "alt": "Haldi makeup look"
+      },
+      {
+        "type": "image",
+        "src": "https://res.cloudinary.com/dvygreryl/image/upload/v1782240537/dsbs/models/model-6/photo-01.jpg",
+        "alt": "Bridal makeup look"
+      }
+    ]
+  },
+  "transformations": [
+    {
+      "id": "transformation-1",
+      "brideName": "Day Party Look",
+      "event": "Party",
+      "story": "Real before & after transformation — drag the slider to compare.",
+      "packageUsed": "Royal Bride Package",
+      "before": "https://res.cloudinary.com/dvygreryl/video/upload/v1782240561/dsbs/transformations/transformation-1/before.mp4",
+      "after": "https://res.cloudinary.com/dvygreryl/video/upload/v1782240557/dsbs/transformations/transformation-1/after.mp4",
+      "beforeType": "video",
+      "afterType": "video"
+    },
+    {
+      "id": "transformation-2",
+      "brideName": "Haldi Look",
+      "event": "Haldi",
+      "story": "Real before & after transformation — drag the slider to compare.",
+      "packageUsed": "Royal Bride Package",
+      "before": "https://res.cloudinary.com/dvygreryl/video/upload/v1782240567/dsbs/transformations/transformation-2/before.mp4",
+      "after": "https://res.cloudinary.com/dvygreryl/video/upload/v1782240564/dsbs/transformations/transformation-2/after.mp4",
+      "beforeType": "video",
+      "afterType": "video"
+    },
+    {
+      "id": "transformation-3",
+      "brideName": "Bride 3",
+      "event": "Bridal",
+      "story": "Real before & after transformation — drag the slider to compare.",
+      "packageUsed": "Royal Bride Package",
+      "before": "https://res.cloudinary.com/dvygreryl/video/upload/v1782240579/dsbs/transformations/transformation-3/before.mp4",
+      "after": "https://res.cloudinary.com/dvygreryl/video/upload/v1782240576/dsbs/transformations/transformation-3/after.mp4",
+      "beforeType": "video",
+      "afterType": "video"
+    }
+  ],
+  "team": [
+    {
+      "name": "Deep Shikha",
+      "role": "Founder & Lead Makeup Artist",
+      "certification": "Lakmé Certified Bridal Makeup Artist",
+      "bio": "34+ brides across Patna trust Deep Shikha for timeless, camera-ready bridal looks.",
+      "philosophy": "Har chehra mere liye bahut important hai. Bhagwan ne hum sabko pehle se itna sundar banaya hai — main bas apni chhoti si expertise se us natural beauty ko enhance karti hoon, taaki aap apne special din bilkul khush aur confident mehsoos karein.",
+      "image": "https://res.cloudinary.com/dvygreryl/image/upload/v1782240405/dsbs/deep_shikha.png",
+      "instagram": "@deepshikhabeautystudio",
+      "isFounder": true
+    }
+  ],
+  "workInProgress": {
+    "enabled": true,
+    "label": "Work in Progress",
+    "title": "Fresh Looks Coming Soon",
+    "subtitle": "Sneak peek from Deep Shikha's studio — full albums landing soon.",
+    "items": [
+      {
+        "src": "https://res.cloudinary.com/dvygreryl/image/upload/v1782240580/dsbs/work/photo-01.jpg",
+        "type": "image"
+      },
+      {
+        "src": "https://res.cloudinary.com/dvygreryl/image/upload/v1782240582/dsbs/work/photo-02.jpg",
+        "type": "image"
+      }
+    ]
+  },
+  "instagramReels": []
+}

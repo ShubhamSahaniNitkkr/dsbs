@@ -1,0 +1,52 @@
+---
+import { siteConfig } from '../../lib/utils';
+import social from '../../data/social.json';
+import services from '../../data/services.json';
+import media from '../../data/media.json';
+---
+
+<footer class="bg-black text-ivory/70">
+  <div class="container-salon section-padding !py-10 max-sm:!px-5 max-sm:!pb-[9.5rem] sm:!py-16">
+    <div class="grid grid-cols-1 gap-8 max-sm:text-center sm:grid-cols-2 sm:gap-12 sm:text-left lg:grid-cols-4">
+      <div class="sm:col-span-2 lg:col-span-1">
+        <img src={media.logo} alt={media.logoAlt} class="mx-auto h-12 w-auto object-contain sm:mx-0 sm:h-16" loading="lazy" />
+        <p class="mx-auto mt-4 max-w-sm text-sm leading-relaxed sm:mx-0 sm:mt-5">{siteConfig.tagline}</p>
+        <a href={social.instagram.url} target="_blank" rel="noopener noreferrer" class="mt-3 inline-block text-[11px] tracking-widest text-rose-gold-light uppercase hover:text-ivory sm:mt-4">
+          {social.instagram.handle}
+        </a>
+      </div>
+
+      <div class="max-sm:mx-auto max-sm:w-full max-sm:max-w-[15rem] max-sm:text-left">
+        <p class="text-[11px] font-medium tracking-[0.2em] text-ivory uppercase">Services</p>
+        <ul class="mt-3 space-y-2 text-sm sm:mt-5 sm:space-y-3">
+          {services.filter(s => s.slug).map((s) => (
+            <li><a href={`/${s.slug}`} class="hover:text-ivory transition-colors">{s.name}</a></li>
+          ))}
+        </ul>
+      </div>
+
+      <div class="max-sm:mx-auto max-sm:w-full max-sm:max-w-[15rem] max-sm:text-left">
+        <p class="text-[11px] font-medium tracking-[0.2em] text-ivory uppercase">Links</p>
+        <ul class="mt-3 space-y-2 text-sm sm:mt-5 sm:space-y-3">
+          <li><a href="/#portfolio" class="hover:text-ivory">Portfolio</a></li>
+          <li><a href="/#packages" class="hover:text-ivory">Packages</a></li>
+          <li><a href="/#payment" class="hover:text-ivory">Booking</a></li>
+          <li><a href="/#faq" class="hover:text-ivory">FAQ</a></li>
+        </ul>
+      </div>
+
+      <div class="sm:col-span-2 lg:col-span-1">
+        <p class="text-[11px] font-medium tracking-[0.2em] text-ivory uppercase">Contact</p>
+        <ul class="mx-auto mt-3 max-w-xs space-y-2 text-sm sm:mx-0 sm:mt-5 sm:max-w-none sm:space-y-3">
+          <li>{siteConfig.location}</li>
+          <li><a href={`tel:${siteConfig.phone}`} class="hover:text-ivory">{siteConfig.phone}</a></li>
+          <li><a href={`mailto:${siteConfig.email}`} class="hover:text-ivory">{siteConfig.email}</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="mt-8 border-t border-white/10 pt-6 text-center text-[10px] tracking-widest uppercase sm:mt-14 sm:pt-8 sm:text-[11px]">
+      © {new Date().getFullYear()} {siteConfig.brand}
+    </div>
+  </div>
+</footer>

@@ -1,0 +1,20 @@
+---
+import ClientWorkGallery from '../ui/ClientWorkGallery';
+---
+
+<section id="portfolio" class="portfolio-section relative overflow-hidden">
+  <div class="portfolio-grain pointer-events-none absolute inset-0" aria-hidden="true"></div>
+  <div class="relative z-10 mx-auto max-w-7xl px-4 py-16 sm:px-6 sm:py-24 lg:px-10">
+    <div class="mb-12 text-center sm:mb-16">
+      <p class="text-[10px] font-semibold tracking-[0.28em] text-rose-gold-light uppercase">Portfolio</p>
+      <div class="mx-auto mt-4 h-[2px] w-10 bg-gradient-to-r from-rose-gold to-rose-gold-light"></div>
+      <h2 class="font-display mt-5 text-3xl font-semibold text-ivory sm:text-4xl md:text-5xl">
+        Every Bride, A Masterpiece
+      </h2>
+      <p class="mx-auto mt-4 max-w-lg text-sm leading-relaxed text-white/50 sm:text-base">
+        Tap any look — cinematic reel first, then the full photo album.
+      </p>
+    </div>
+    <ClientWorkGallery client:load />
+  </div>
+</section>

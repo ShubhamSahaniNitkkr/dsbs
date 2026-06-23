@@ -1,0 +1,95 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import SectionTitle from '../components/ui/SectionTitle.astro';
+import ClientWorkGallery from '../components/ui/ClientWorkGallery';
+import TransformationsSection from '../components/sections/TransformationsSection';
+import PaymentForm from '../components/ui/PaymentForm';
+import seoPages from '../data/seo-pages.json';
+import packages from '../data/packages.json';
+import faq from '../data/faq.json';
+import site from '../data/site.json';
+import type { SeoPageConfig, Package, ModelCategory } from '../types';
+import { getWhatsAppConsultationUrl, getWhatsAppPackageUrl } from '../lib/utils';
+
+export function getStaticPaths() {
+  return seoPages.map((page: SeoPageConfig) => ({
+    params: { slug: page.slug },
+    props: { page },
+  }));
+}
+
+interface Props { page: SeoPageConfig; }
+
+const { page } = Astro.props;
+const featuredPackage = packages.find((p: Package) => p.id === page.featuredPackageId);
+const canonical = `${site.domain}/${page.slug}`;
+const modelCategories: ModelCategory[] = ['bridal', 'engagement', 'reception', 'party', 'haldi'];
+const galleryFilter = modelCategories.includes(page.galleryCategory as ModelCategory)
+  ? (page.galleryCategory as ModelCategory)
+  : 'all';
+---
+
+<BaseLayout title={page.title} description={page.description} keywords={page.keywords} canonical={canonical} schemaType="service" serviceName={page.h1} serviceDescription={page.description}>
+  <section class="section-padding bg-surface pt-28">
+    <div class="container-salon text-center">
+      <p class="label">{page.h1.split(' ').slice(-2).join(' ')}</p>
+      <div class="divider mx-auto mt-4"></div>
+      <h1 class="font-display mt-6 text-4xl font-light text-charcoal sm:text-5xl">{page.h1}</h1>
+      <p class="mx-auto mt-5 max-w-xl text-sm text-muted">{page.description}</p>
+      <div class="mt-8 flex flex-col items-center gap-3 sm:flex-row sm:justify-center">
+        <a href={getWhatsAppConsultationUrl()} target="_blank" rel="noopener noreferrer" class="btn-whatsapp">Book Consultation</a>
+        <a href="/#packages" class="btn-secondary">All Packages</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="portfolio-section relative overflow-hidden">
+    <div class="portfolio-grain pointer-events-none absolute inset-0" aria-hidden="true"></div>
+    <div class="relative z-10 mx-auto max-w-7xl px-4 py-16 sm:px-6 sm:py-20 lg:px-10">
+      <div class="mb-10 text-center">
+        <p class="text-[10px] font-semibold tracking-[0.28em] text-rose-gold-light uppercase">Client Work</p>
+        <div class="mx-auto mt-4 h-[2px] w-10 bg-gradient-to-r from-rose-gold to-rose-gold-light"></div>
+        <h2 class="font-display mt-5 text-3xl font-semibold text-ivory sm:text-4xl">Our Work</h2>
+      </div>
+      <ClientWorkGallery client:load defaultCategory={galleryFilter} />
+    </div>
+  </section>
+
+  <section class="section-padding bg-dark">
+    <div class="container-salon">
+      <SectionTitle label="Results" title="Transformations" light={true} />
+      <TransformationsSection client:load />
+    </div>
+  </section>
+
+  {featuredPackage && (
+    <section class="section-padding bg-surface">
+      <div class="container-salon">
+        <SectionTitle label="Recommended" title={featuredPackage.name} />
+        <div class="salon-card mx-auto max-w-md p-10 text-center">
+          <p class="font-display text-5xl text-charcoal">₹{featuredPackage.price.toLocaleString('en-IN')}</p>
+          <ul class="mt-8 space-y-3 text-left text-sm text-muted">
+            {featuredPackage.includes.map((item: string) => (
+              <li class="flex gap-3"><span class="text-rose-gold">—</span>{item}</li>
+            ))}
+          </ul>
+          <a href={getWhatsAppPackageUrl(featuredPackage.name, featuredPackage.price)} target="_blank" rel="noopener noreferrer" class="btn-whatsapp mt-8 inline-flex w-full">Book on WhatsApp</a>
+        </div>
+      </div>
+    </section>
+  )}
+
+  <section class="section-padding bg-surface-alt">
+    <div class="container-salon">
+      <SectionTitle label="Booking" title="Secure Your Date" />
+      <div class="border border-champagne bg-white p-6 sm:p-10">
+        <PaymentForm client:load preselectedPackage={page.featuredPackageId} />
+      </div>
+    </div>
+  </section>
+
+  <section class="section-padding bg-dark text-center">
+    <h2 class="font-display text-3xl text-ivory sm:text-4xl">Ready to Book?</h2>
+    <a href={getWhatsAppConsultationUrl()} target="_blank" rel="noopener noreferrer" class="btn-rose mt-8 inline-flex">WhatsApp Deep Shikha</a>
+  </section>
+</BaseLayout>
